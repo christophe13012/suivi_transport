@@ -28,6 +28,7 @@ const FormNouveauTransport = props => {
       return null;
     });
   };
+  React.useEffect(() => {}, []);
   const checkType = type => {
     if (type === "france") return returnForm(ChampsFormulaireFrance);
     if (type === "asie") return returnForm(ChampsFormulaireAsie);
